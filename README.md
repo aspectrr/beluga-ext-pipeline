@@ -15,7 +15,7 @@ A Beluga extension that provides pipeline sandbox environments with Redpanda (Ka
 ## Install
 
 ```bash
-beluga extend install github.com/collinpfeifer/beluga-ext-pipeline
+beluga extend install github.com/aspectrr/beluga-ext-pipeline
 ```
 
 Or from a local path:

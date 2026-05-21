@@ -1,9 +1,9 @@
-module github.com/collinpfeifer/beluga-ext-pipeline
+module github.com/aspectrr/beluga-ext-pipeline
 
 go 1.25.0
 
 require (
-	github.com/collinpfeifer/beluga v0.0.0
+	github.com/aspectrr/beluga v0.0.0
 	github.com/docker/docker v28.5.2+incompatible
 	github.com/docker/go-connections v0.7.0
 )
@@ -41,4 +41,4 @@ require (
 	golang.org/x/text v0.36.0 // indirect
 )
 
-replace github.com/collinpfeifer/beluga => ../beluga
+replace github.com/aspectrr/beluga => ../beluga
