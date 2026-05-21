@@ -1,0 +1,29 @@
+{
+  "name": "pipeline",
+  "entrypoint": "index.ts",
+  "version": "0.1.0",
+  "description": "Isolated Docker-based data pipeline sandboxes (Redpanda + Logstash + Elasticsearch).",
+  "config": [
+    {
+      "name": "redpanda_image",
+      "type": "string",
+      "description": "Redpanda Docker image",
+      "required": false,
+      "default": "docker.redpanda.com/redpandadata/redpanda:latest"
+    },
+    {
+      "name": "elasticsearch_image",
+      "type": "string",
+      "description": "Elasticsearch Docker image",
+      "required": false,
+      "default": "docker.elastic.co/elasticsearch/elasticsearch:8.17.0"
+    },
+    {
+      "name": "logstash_image",
+      "type": "string",
+      "description": "Logstash Docker image",
+      "required": false,
+      "default": "docker.elastic.co/logstash/logstash:8.17.0"
+    }
+  ]
+}
