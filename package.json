@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.ts",
   "dependencies": {
-    "@beluga/sdk": "file:../beluga/packages/sdk",
+    "@aspectrr/beluga-sdk": "^0.1.1",
     "dockerode": "^4.0.6"
   },
   "peerDependencies": {
